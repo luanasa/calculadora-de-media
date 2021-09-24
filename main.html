@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+        Calculadora de média</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+        </p>
+      </div>
+        <main>
+        <div class="notas">
+          <label>1º Bimestre: <input type="number" placeholder="nota 1" id="nota1"></label><br>
+          <label>2º Bimestre: <input type="number" placeholder="nota 2" id="nota2"></label><br>
+          <label>3º Bimestre: <input type="number" placeholder="nota 3" id="nota3"></label><br>
+          <label>4º Bimestre: <input type="number" placeholder="nota 4" id="nota4"></label><br>
+              
+   <button type="button" class="botao" onclick="calcular()">Calcular!</button> 
+        <div class="result" id="resultado"></div>
+          </div>
+      </main>
+      <div class="imagem">
+        <img src="https://cdn-icons-png.flaticon.com/512/5721/5721117.png" alt="" >
+        
+    </div>
+  <script src="js/script.js"></script>  
+</body>
+</html>

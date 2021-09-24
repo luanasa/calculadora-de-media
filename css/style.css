@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: linear-gradient(to right, #fcd3d3, #f8c4c0, #f2b6ab, #eaa995, #e19c7f);
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 1.25rem;
+  }
+  
+  .page-title {
+    color:#A1312F;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .botao{
+        text-align: center;
+        position: center;
+        background-color: #5ED6B6;
+        margin-top: 12px;
+        padding: 0.5rem 2rem;
+        border-radius: 5px;
+        transition: 0.3s;
+        font-size: 0.9rem;
+        border: none;
+  }
+  
+  .botao:hover {
+      background-color: rgba(255, 255, 255, 204);
+  }
+  .notas {
+    color: #040404;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+    
+  }
+  
+  .result {
+    text-align: center;
+    padding: 1.25rem;
+  }
