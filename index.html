@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
     <title>Calculadora de média</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,20 +15,23 @@
         <h1 class="page-title">
         Calculadora de média</h1>
         <p class="page-subtitle">
-        Descubra qual a sua média de nota de todas as provas!
+        Descubra qual a sua média de nota de todas as suas provas!
         </p>
       </div>
         <main>
         <div class="notas">
           <label>1º Bimestre: <input type="number" placeholder="nota 1" id="nota1"></label><br>
           <label>2º Bimestre: <input type="number" placeholder="nota 2" id="nota2"></label><br>
+        </div>
+        <div class="notas">
           <label>3º Bimestre: <input type="number" placeholder="nota 3" id="nota3"></label><br>
           <label>4º Bimestre: <input type="number" placeholder="nota 4" id="nota4"></label><br>
-              
-   <button type="button" class="botao" onclick="calcular()">Calcular!</button> 
-        <div class="result" id="resultado"></div>
-          </div>
+        </div>
       </main>
+
+      <button type="button" class="botao" onclick="calcular()">Calcular!</button> 
+      <div class="result" id="resultado"></div>
+
       <div class="imagem">
         <img src="https://cdn-icons-png.flaticon.com/512/5721/5721117.png" alt="" >
         
