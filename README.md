@@ -2,4 +2,4 @@
 
 Desafio concluído! Proposto pela Imersão DEV da Alura. 
 
-![image](https://user-images.githubusercontent.com/38231334/134718827-3c60cb99-4884-4d55-8bca-7fb1ba9a1aa8.png)
+![frame_generic_light](https://github.com/luanasa/calculadora-de-media/assets/38231334/75713ab4-7ea4-4a4a-858d-3503ec426ea1)
